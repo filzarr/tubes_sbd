@@ -1,0 +1,47 @@
+@extends('layout.nav')
+@section('title', 'obat')
+@section('konten')
+<div class="d-flex p-2 bd-highlight" style="background-color: #f3f3f3"> <br> <br></div>
+<main>
+    <div class="container py-4" style="padding-left: 9rem" style="display: block" style="margin: 12px" style="box-sizing: inherit">
+        <h1> Drugs Index A to Z</h1>
+    </div>
+    <div class="container py-4" style="padding-left: 9rem" style="display: block" style="margin: 12px" style="box-sizing: inherit">
+        <h2>What is amlod?</h2>
+        <p style="margin: 12px">Detailed and accurate information is provided on over 24,000 prescription and over-the-counter medicines for both consumers and healthcare professionals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet euismod velit. Sed lacus justo, dapibus nec tincidunt quis, pharetra quis augue. Maecenas magna felis, dapibus id orci quis, semper tristique orci. Pellentesque id porta tortor. Suspendisse sed pretium sem. Morbi lacinia rutrum iaculis. Phasellus varius et nisi vel luctus. Donec ultricies, orci egestas gravida congue, leo libero hendrerit metus, nec commodo augue elit et metus. Cras gravida dapibus finibus. Curabitur eleifend maximus ultrices. Sed at massa pretium, rhoncus nisl accumsan, dictum lorem. Suspendisse condimentum vulputate neque et blandit. Suspendisse vel nisl id est finibus euismod at vel nunc. Phasellus ipsum justo, egestas at tincidunt a, porta lobortis mi.</p>
+    </div>
+    <div class="container py-4" style="padding-left: 9rem" style="display: block" style="margin: 12px" style="box-sizing: inherit">
+        <h2>Warning</h2>
+        <p style="margin: 12px">Detailed and accurate information is provided on over 24,000 prescription and over-the-counter medicines for both consumers and healthcare professionals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet euismod velit. Sed lacus justo, dapibus nec tincidunt quis, pharetra quis augue. Maecenas magna felis, dapibus id orci quis, semper tristique orci. Pellentesque id porta tortor. Suspendisse sed pretium sem. Morbi lacinia rutrum iaculis. Phasellus varius et nisi vel luctus. Donec ultricies, orci egestas gravida congue, leo libero hendrerit metus, nec commodo augue elit et metus. Cras gravida dapibus finibus. Curabitur eleifend maximus ultrices. Sed at massa pretium, rhoncus nisl accumsan, dictum lorem. Suspendisse condimentum vulputate neque et blandit. Suspendisse vel nisl id est finibus euismod at vel nunc. Phasellus ipsum justo, egestas at tincidunt a, porta lobortis mi.</p>
+    </div>
+    <div class="container py-4" style="padding-left: 9rem" style="display: block" style="margin: 12px" style="box-sizing: inherit">
+        <h2>Before taking this medicines</h2>
+        <p style="margin: 12px">Detailed and accurate information is provided on over 24,000 prescription and over-the-counter medicines for both consumers and healthcare professionals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet euismod velit. Sed lacus justo, dapibus nec tincidunt quis, pharetra quis augue. Maecenas magna felis, dapibus id orci quis, semper tristique orci. Pellentesque id porta tortor. Suspendisse sed pretium sem. Morbi lacinia rutrum iaculis. Phasellus varius et nisi vel luctus. Donec ultricies, orci egestas gravida congue, leo libero hendrerit metus, nec commodo augue elit et metus. Cras gravida dapibus finibus. Curabitur eleifend maximus ultrices. Sed at massa pretium, rhoncus nisl accumsan, dictum lorem. Suspendisse condimentum vulputate neque et blandit. Suspendisse vel nisl id est finibus euismod at vel nunc. Phasellus ipsum justo, egestas at tincidunt a, porta lobortis mi.</p>
+    </div>
+    <div class="container py-4" style="padding-left: 9rem" style="display: block" style="margin: 12px" style="box-sizing: inherit">
+        <h2>How should i take this medicine</h2>
+        <p style="margin: 12px">Detailed and accurate information is provided on over 24,000 prescription and over-the-counter medicines for both consumers and healthcare professionals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet euismod velit. Sed lacus justo, dapibus nec tincidunt quis, pharetra quis augue. Maecenas magna felis, dapibus id orci quis, semper tristique orci. Pellentesque id porta tortor. Suspendisse sed pretium sem. Morbi lacinia rutrum iaculis. Phasellus varius et nisi vel luctus. Donec ultricies, orci egestas gravida congue, leo libero hendrerit metus, nec commodo augue elit et metus. Cras gravida dapibus finibus. Curabitur eleifend maximus ultrices. Sed at massa pretium, rhoncus nisl accumsan, dictum lorem. Suspendisse condimentum vulputate neque et blandit. Suspendisse vel nisl id est finibus euismod at vel nunc. Phasellus ipsum justo, egestas at tincidunt a, porta lobortis mi.</p>
+    </div>
+    <div class="container py-4" style="padding-left: 9rem" style="display: block" style="margin: 12px" style="box-sizing: inherit">
+        <h2>What happens if i miss dose</h2>
+        <p style="margin: 12px">Detailed and accurate information is provided on over 24,000 prescription and over-the-counter medicines for both consumers and healthcare professionals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet euismod velit. Sed lacus justo, dapibus nec tincidunt quis, pharetra quis augue. Maecenas magna felis, dapibus id orci quis, semper tristique orci. Pellentesque id porta tortor. Suspendisse sed pretium sem. Morbi lacinia rutrum iaculis. Phasellus varius et nisi vel luctus. Donec ultricies, orci egestas gravida congue, leo libero hendrerit metus, nec commodo augue elit et metus. Cras gravida dapibus finibus. Curabitur eleifend maximus ultrices. Sed at massa pretium, rhoncus nisl accumsan, dictum lorem. Suspendisse condimentum vulputate neque et blandit. Suspendisse vel nisl id est finibus euismod at vel nunc. Phasellus ipsum justo, egestas at tincidunt a, porta lobortis mi.</p>
+    </div>
+    <div class="container py-4" style="padding-left: 9rem" style="display: block" style="margin: 12px" style="box-sizing: inherit">
+        <h2>What to avoid</h2>
+        <p style="margin: 12px">Detailed and accurate information is provided on over 24,000 prescription and over-the-counter medicines for both consumers and healthcare professionals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet euismod velit. Sed lacus justo, dapibus nec tincidunt quis, pharetra quis augue. Maecenas magna felis, dapibus id orci quis, semper tristique orci. Pellentesque id porta tortor. Suspendisse sed pretium sem. Morbi lacinia rutrum iaculis. Phasellus varius et nisi vel luctus. Donec ultricies, orci egestas gravida congue, leo libero hendrerit metus, nec commodo augue elit et metus. Cras gravida dapibus finibus. Curabitur eleifend maximus ultrices. Sed at massa pretium, rhoncus nisl accumsan, dictum lorem. Suspendisse condimentum vulputate neque et blandit. Suspendisse vel nisl id est finibus euismod at vel nunc. Phasellus ipsum justo, egestas at tincidunt a, porta lobortis mi.</p>
+    </div>
+    <div class="container py-4" style="padding-left: 9rem" style="display: block" style="margin: 12px" style="box-sizing: inherit">
+        <h2>Ambien side Effects</h2>
+        <p style="margin: 12px">Detailed and accurate information is provided on over 24,000 prescription and over-the-counter medicines for both consumers and healthcare professionals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet euismod velit. Sed lacus justo, dapibus nec tincidunt quis, pharetra quis augue. Maecenas magna felis, dapibus id orci quis, semper tristique orci. Pellentesque id porta tortor. Suspendisse sed pretium sem. Morbi lacinia rutrum iaculis. Phasellus varius et nisi vel luctus. Donec ultricies, orci egestas gravida congue, leo libero hendrerit metus, nec commodo augue elit et metus. Cras gravida dapibus finibus. Curabitur eleifend maximus ultrices. Sed at massa pretium, rhoncus nisl accumsan, dictum lorem. Suspendisse condimentum vulputate neque et blandit. Suspendisse vel nisl id est finibus euismod at vel nunc. Phasellus ipsum justo, egestas at tincidunt a, porta lobortis mi.</p>
+    </div>
+    <div class="container py-4" style="padding-left: 9rem" style="display: block" style="margin: 12px" style="box-sizing: inherit">
+        <h2>What other drugs will affect Ambien?</h2>
+        <p style="margin: 12px">Detailed and accurate information is provided on over 24,000 prescription and over-the-counter medicines for both consumers and healthcare professionals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet euismod velit. Sed lacus justo, dapibus nec tincidunt quis, pharetra quis augue. Maecenas magna felis, dapibus id orci quis, semper tristique orci. Pellentesque id porta tortor. Suspendisse sed pretium sem. Morbi lacinia rutrum iaculis. Phasellus varius et nisi vel luctus. Donec ultricies, orci egestas gravida congue, leo libero hendrerit metus, nec commodo augue elit et metus. Cras gravida dapibus finibus. Curabitur eleifend maximus ultrices. Sed at massa pretium, rhoncus nisl accumsan, dictum lorem. Suspendisse condimentum vulputate neque et blandit. Suspendisse vel nisl id est finibus euismod at vel nunc. Phasellus ipsum justo, egestas at tincidunt a, porta lobortis mi.</p>
+    </div>
+
+
+</main>
+
+
+
+@endsection

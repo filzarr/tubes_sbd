@@ -1,0 +1,18 @@
+#tabs{
+    background-color: #f3f3f3;
+}
+#tabs:hover{
+    background-color: rgba(0, 0, 0, 0.867);
+}
+#tabs a:hover{
+    color: white;
+}
+#log{
+    margin-right: -100px;
+}
+#med{
+    margin-left: -11rem;
+}
+#tabsl{
+    margin-left: 5rem;
+}
