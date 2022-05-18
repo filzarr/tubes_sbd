@@ -1,0 +1,126 @@
+#search{
+    height: 60px;
+    width: 1000px;
+}
+#search-list{
+  height: 50px;
+  width: 1000px;
+}
+@media (max-width: 100px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 100px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+#carousel{
+    width: 1000px;
+}
+#table{
+    justify-content: end;
+}
+ul{
+   
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li{
+    border: 0;
+}
+main{
+    padding-top: 2rem;
+}
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+a{
+    text-decoration: none;
+}
+#list li{
+    font-size: large;
+}
+#caro{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+#isi{
+    padding-top: 0;
+
+}
+#main{
+    padding-bottom: 2rem;
+}
+#content{
+    border: 0;
+    padding-bottom: 2rem;
+}
+#info li{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+}
+#content h5{
+    padding-top: 0;
+    margin-top: 0;
+}
