@@ -14,7 +14,7 @@ class CreateUserMedTable extends Migration
     public function up()
     {
         Schema::create('user_med', function (Blueprint $table) {
-            $table->integer('user_med_id')->primary();
+            $table->increments('user_med_id')->primary();
             $table->integer('drug_id')->nullable()->index('drug_id');
             $table->integer('diseases_id')->nullable()->index('diseases_id');
         });

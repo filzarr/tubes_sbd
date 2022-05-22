@@ -14,7 +14,7 @@ class CreateDiseasesTable extends Migration
     public function up()
     {
         Schema::create('diseases', function (Blueprint $table) {
-            $table->integer('diseases_id')->primary();
+            $table->increments('diseases_id')->primary();
             $table->string('diseases_name', 225)->nullable();
             $table->text('diseases_desc')->nullable();
             $table->text('diseases_causes')->nullable();

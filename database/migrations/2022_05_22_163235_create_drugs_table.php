@@ -14,7 +14,7 @@ class CreateDrugsTable extends Migration
     public function up()
     {
         Schema::create('drugs', function (Blueprint $table) {
-            $table->integer('drug_id')->primary();
+            $table->increments('drug_id')->primary();
             $table->string('drug_name')->nullable();
             $table->text('drug_description')->nullable();
             $table->text('drug_side_effect')->nullable();

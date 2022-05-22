@@ -14,7 +14,7 @@ class CreateAccountTable extends Migration
     public function up()
     {
         Schema::create('account', function (Blueprint $table) {
-            $table->integer('user_id')->primary();
+            $table->increments('user_id')->primary();
             $table->string('email', 50)->nullable();
             $table->string('password')->nullable();
             $table->date('tanggal_lahir')->nullable();
