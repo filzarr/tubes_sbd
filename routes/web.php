@@ -45,6 +45,8 @@ Route::delete('/dashboard/delete', [DashboardController::class, 'UserDelete'])->
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 })->middleware('auth');
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('/login', [LoginController::class, 'authenticate']);
 
 
 
